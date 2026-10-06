@@ -28,7 +28,7 @@ An MSc research project investigating machine learning and explainable AI (XAI) 
 
 **MSc IT with Data Analytics — University of the West of Scotland**
 
-**[📘 Read the Full MSc Dissertation](/MSc_Dissertation.pdf)**
+**[📘 Read the Full MSc Dissertation](/Msc_Dissertation.pdf)**
 
 The dissertation presents the broader MSc project, including the research design, implementation, model evaluation, explainability analysis, limitations, and future work.
 
