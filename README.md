@@ -16,7 +16,7 @@ An MSc research project investigating machine learning and explainable AI (XAI) 
 
 **Accepted for presentation at AI-2026, Cambridge, UK | 15–17 December 2026**
 
-**[📄 Read the Accepted Manuscript](paper/AI-2026_Accepted_Manuscript.pdf)**
+**[📄 Read the Accepted Manuscript](/AI-2026_Accepted_Manuscript.pdf)**
 
 > The manuscript is identified here as an **accepted manuscript**. Inclusion in the conference proceedings is subject to the final-paper, registration, and publication/licensing requirements of the conference.
 
@@ -28,7 +28,7 @@ An MSc research project investigating machine learning and explainable AI (XAI) 
 
 **MSc IT with Data Analytics — University of the West of Scotland**
 
-**[📘 Read the Full MSc Dissertation](dissertation/MSc_Dissertation.pdf)**
+**[📘 Read the Full MSc Dissertation](/MSc_Dissertation.pdf)**
 
 The dissertation presents the broader MSc project, including the research design, implementation, model evaluation, explainability analysis, limitations, and future work.
 
@@ -76,6 +76,37 @@ SMOTE was applied only to the training partition.
 
 
 ---
+
+## ⚙️ Methodology
+
+The research follows an end-to-end prediction and explanation workflow:
+
+```text
+Dataset
+   ↓
+Data Preprocessing
+   ↓
+Stratified Train / Validation / Test Split
+   ↓
+Training-only SMOTE
+   ↓
+Baseline Models
+   ├── Logistic Regression
+   └── Decision Tree
+   ↓
+Ensemble Models
+   ├── Random Forest
+   └── XGBoost
+   ↓
+Model Evaluation
+   ↓
+XGBoost Selection for Explainability Analysis
+   ↓
+SHAP + LIME
+   ↓
+Explanation Reliability Evaluation
+```
+The study is intentionally presented as an empirical application study, rather than as a new machine learning algorithm.
 
 ## 🤖 Machine Learning Models
 
@@ -191,7 +222,7 @@ The project investigates:
 
 The complete implementation is available in a single Google Colab notebook.
 
-**[🔗 Open the Google Colab Notebook](YOUR-COLAB-LINK-HERE)**
+**[🔗 Open the Google Colab Notebook](https://colab.research.google.com/drive/1iHVq2W_LTnqNl-20XC2kTJki0YugemyB)**
 
 The notebook contains the main data preparation, model development, evaluation, and explainability workflow used in the project.
 
